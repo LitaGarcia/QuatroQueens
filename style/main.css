@@ -1,11 +1,65 @@
 
+:root{
+    --letraPrincipal: 'Open Sans', sans-serif;
+    --letraHeader: 'Rubik', sans-serif;
+    --grisFondo: #F1F1F1;
+    --grisClaro: #b8b8b9;
+    --grisOscuro: #54585a;
+    --verdeOscuro: #099D8D;
+    --verdeClaro: #14D9C4;
+    --blanco: #fff;
+    --negro: #000;
+}
 
+/* HEADER */
+.title {
+    color: white;
+    background-color: #099D8D;
+    opacity: 0.95;
+    text-transform: uppercase;
+    text-align: center;
+    width: 480px;
+    height: 60px;
+    padding-top: 30px;
+  }
+  .menu-header {
+    color: white;
+    background-color: #14D9C4;
+    opacity: 0.9;
+    text-transform: uppercase;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 480px;
+    height: 45px;
+    padding: 0;
+  }
+  .menu-header > li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-transform: uppercase;
+    background-color: #14D9C4;
+    opacity: 0, 9;
+    text-align: center;
+    padding: 0;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: sticky;
+    top: 0;
+  }
+  /* HEADER */
+   
+  
 
 .container {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: ;
     width: 320px;
     height: 579px;
     padding: 30px 15px 45px;
@@ -69,3 +123,67 @@ justify-content: center;
 align-items: center;
 flex-grow: 1;
 }
+
+/* Parte Aleksandra */
+.hero {
+    background-image: url('../Images/image_1.jpg');
+    background-position: center;
+    width: 100%;
+    height: 316px;
+    margin-bottom: 76px;
+}
+.claim {
+    display: flex;
+    width: 290px;
+    height: 80px;
+    background-color: white;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    top: 276px;
+    left: 20px;
+}
+.claim-content {
+    text-align: center;
+}
+.description {
+    text-align: center;
+}
+
+/* FOOTER */
+
+.footer{
+    border: solid 1px var(--grisClaro);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--letraPrincipal);
+}
+
+.footer .copyright{
+    color: var(--grisClaro);
+    font-size: 14px;
+    margin: 20px;
+}
+
+
+.footer .menu li{
+    text-align: center;
+    line-height: 20px;
+}
+
+.footer .menu li a{
+    color: var(--grisOscuro);
+    font-weight:600;
+    opacity: 0.75;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+.footer .logo_footer{
+    width: 116px;
+    height: 45px;
+    margin: 30px;
+}
+
