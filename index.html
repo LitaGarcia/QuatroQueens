@@ -1,35 +1,28 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto 1</title>
-    <link rel="stylesheet" href="./style/reset.css"> 
-    <link
-  rel="stylesheet"
-  href="https://fonts.googleapis.com/css?family=Font+Name"
-/>
-
-<link rel="preconnect" href="https://pro.fontawesome.com" />
-<link
-  rel="stylesheet"
-  href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-  integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-  crossorigin="anonymous"/>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Proyecto 1</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/9a646766b9.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./style/reset.css"> 
+        <link rel="stylesheet" href="./style/main.css"/> 
+    
+    </head>
 
 
-   <link rel="stylesheet" href="./style/main.css"/> 
-
-</head>
 <body>
     <header class="header">
         <h1 class="title">Nombre del grupo</h1>
         <nav>
           <ul class="menu-header">
-            <li>equipo</li>
-            <li>quienes somos</li>
-            <li>contacto</li>
+         <li><a href="./index.html#equipo">equipo</a></li> 
+         <li> <a href="./index.html#perfiles">quiénes somos</a></li> 
+         <li><a href="contact.html">contacto</a></li> 
           </ul>
         </nav>
       </header>
@@ -38,7 +31,7 @@
     <div class="claim"><h3 class="claim-content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
     </h3></div>
     </section>
-<section class="description"><h2>EQUIPO</h2>
+<section class="description"  id="equipo"><h2 class="title_description">equipo</h2>
 
 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse ullam quo qui accusantium laboriosam modi illo sint quae corrupti. Animi blanditiis harum iste odio illum voluptatem, vero similique. Rem, non!</p>
 
@@ -48,37 +41,38 @@
 
 
 <section class="container">
-    <h3>FORTALEZAS</h3>
+    <h3>Fortalezas</h3>
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse ullam quo qui accusantium laboriosam modi illo sint quae corrupti. Animi blanditiis harum iste odio illum voluptatem, vero similique. Rem, non!</p>
     <h3>Debilidades</h3>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quae perspiciatis tenetur blanditiis temporibus asperiores, reiciendis nemo officia quasi aliquam praesentium dolore aut quos voluptate expedita. Cupiditate sequi nemo tempora.</p></section>
 
 </section>
 
-<section class="secundarycontainer">
-    <h4>QUIENES SOMOS</h4>
+<section class="secundarycontainer" id="perfiles">
+    <h4>quiénes somos</h4>
 <article>
-    <img src="" alt="">
+    <div class="perfil1"></div>
     <h5>name 1</h5>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, nemo. Incidunt vitae explicabo nesciunt optio illum delectus, aperiam aspernatur porro reprehenderit odit quam cupiditate? Qui obcaecati consectetur nesciunt itaque deserunt?</p> 
    
    <nav class="navbar">
-    <ul class="social">
-        <li>
-         <i class="fa-brands fa-twitter"></i>
- 
-        </li>
-        <li>
-            <i class="fa-brands fa-linkedin-in"></i>
-        </li>
-        <li>
-            <i class="fa-brands fa-github-alt"></i>
-        </li>
-        <li><i class="fa-solid fa-envelope"></i> 
-        
-        </li>
-      </ul>
-    </nav></article>
+    <nav class="navbar">
+        <ul class="social">
+            <li>
+             <i class="fa-brands fa-twitter"></i>
+     
+            </li>
+            <li>
+                <i class="fa-brands fa-linkedin-in"></i>
+            </li>
+            <li>
+                <i class="fa-brands fa-github-alt"></i>
+            </li>
+            <li><i class="fa-solid fa-envelope"></i> 
+            
+            </li>
+          </ul>
+        </nav></article>
 
 
     
@@ -87,12 +81,12 @@
 
 
 <article>
-    <img src="" alt="">
+    <div class="perfil2"></div>
     <h5>name2</h5>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, fuga error? A quod praesentium earum, at maiores laborum qui unde pariatur nulla accusamus maxime rerum ea excepturi eligendi dolore eos?</p> 
     <nav class="navbar">
-        <ul >
-            <li>
+        <ul class="social">
+            <li> 
              <i class="fa-brands fa-twitter"></i>
      
             </li>
@@ -108,11 +102,12 @@
           </ul>
         </nav></article> </article>
 
-<article><img src="" alt="">
-    <h5>name</h5>
+<article>
+    <div class="perfil3"></div>
+    <h5>name3</h5>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore tempore temporibus ullam facilis asperiores velit officia aperiam assumenda, eius fuga, sapiente ipsa, nostrum mollitia labore sit explicabo quam recusandae ut!</p> 
     <nav class="navbar">
-        <ul >
+        <ul class="social">
             <li>
              <i class="fa-brands fa-twitter"></i>
      
@@ -129,12 +124,12 @@
           </ul>
         </nav></article> </article>
 
-<article><img src="" alt="">
+<article> <div class="perfil4"></div>
     <h5>name 4</h5>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur velit iusto illum cumque consequatur modi sunt unde explicabo quisquam distinctio blanditiis nesciunt quasi aperiam, similique dignissimos dicta id libero optio?</p> 
     
     <nav class="navbar">
-        <ul >
+        <ul class="social">
             <li>
              <i class="fa-brands fa-twitter"></i>
      
@@ -166,13 +161,13 @@
         <nav class="nav">
             <ul class="menu">
                 <li> 
-                    <a href="#">EQUIPO</a>
+                    <a href="./index.html#equipo">EQUIPO</a>
                 </li>
                 <li> 
-                    <a href="#">QUIÉNES SOMOS</a>
+                    <a href="./index.html#perfiles">QUIÉNES SOMOS</a>
                 </li>
                 <li> 
-                    <a href="#">CONTACTO</a>
+                    <a href="contact.html">CONTACTO</a>
                 </li>
             </ul>
         </nav>
