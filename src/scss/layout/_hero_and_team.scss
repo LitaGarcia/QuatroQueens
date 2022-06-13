@@ -1,0 +1,23 @@
+
+
+.motto {
+  font-size: 18px;
+  width: 80%;
+  padding: 15px 0;
+  color: $negro;
+  font-family: $letraPrincipal;
+  font-weight: 600;
+  background-color: $blanco;
+  text-align: center;
+  position: absolute;
+  top: 50vh;
+  transform: translateY(-80px);
+}
+.title_description {
+  font-family: $letraSecundaria;
+  font-size: 24px;
+  color: $verdeClaro;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 30px;
+}

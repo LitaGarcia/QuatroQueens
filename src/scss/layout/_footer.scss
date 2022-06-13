@@ -1,8 +1,33 @@
-.page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  color: $color-secondary;
+.footer {
+  border: solid 1px $grisClaro;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: $letraPrincipal;
+}
+
+.footer .copyright {
+  color: $grisClaro;
+  font-size: 14px;
+  margin: 20px;
+}
+
+.footer .menu li {
+  text-align: center;
+  line-height: 20px;
+}
+
+.footer .menu li a {
+  color: $grisOscuro;
+  font-weight: 600;
+  opacity: 0.75;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+.footer .logo_footer {
+  width: 116px;
+  height: 45px;
+  margin: 30px;
 }

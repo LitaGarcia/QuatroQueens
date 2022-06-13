@@ -1,9 +1,43 @@
-// estilos para las etiquetas <code>
-// más info sobre la etiqueta code https://developer.mozilla.org/es/docs/Web/HTML/Elemento/code
+.logo {
+  width: 100%;
+  height: 421px;
+}
 
-.code {
+.icon::before {
+  content: " · ";
+}
+
+.first-icon,
+.icon {
+  margin-right: 15px;
+  color: $verdeOscuro;
+  text-decoration: none;
+}
+
+.square {
+  width: 30px;
+  height: 30px;
+  background-color: $blanco;
+  transform: rotate(45deg);
+  position: absolute;
+  top: -15px;
+  left: 45vw;
+}
+
+p {
+  font-family: $letraPrincipal;
   font-size: 16px;
-  background: #d8d8d8;
-  padding: 0 5px;
-  border-radius: 5px;
+  line-height: 1.5;
+  text-align: center;
+  color: $grisOscuro;
+  padding: 15px 0 15px 0;
+}
+
+.main {
+  padding: 60px 15px 60px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }

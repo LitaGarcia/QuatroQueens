@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgba(184, 184, 185, 0.2);
+    text-align: center;
+    position: relative;
+    padding: 30px 0;
+  }
+  
+  .title_container {
+    color: $verdeOscuro;
+    font-family: $letraSecundaria;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 2.05;
+    text-align: center;
+  }
+  
