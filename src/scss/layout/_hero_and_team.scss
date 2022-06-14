@@ -11,7 +11,7 @@
   text-align: center;
   position: absolute;
   top: 50vh;
-  transform: translateY(-80px);
+  transform: translateY(190px);
 }
 .title_description {
   font-family: $letraSecundaria;
@@ -26,3 +26,6 @@
   padding: 60px 15px 60px 15px;
 }
 
+.logo{
+  object-fit: cover;
+}

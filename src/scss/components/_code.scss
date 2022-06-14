@@ -21,7 +21,13 @@
   transform: rotate(45deg);
   position: absolute;
   top: -15px;
-  left: 45vw;
+  left: 48vw;
+  @media all and (min-width:768px){
+    left: 48vw;
+  }
+  @media all and (min-width:1200px){
+    left: 49vw;
+  }
 }
 
 p {
@@ -31,6 +37,9 @@ p {
   text-align: center;
   color: $grisOscuro;
   padding: 15px 0 15px 0;
+  @media all and (min-width:768px){
+    padding: 15px 30px 15px 30px;
+  }
 }
 
 .main {

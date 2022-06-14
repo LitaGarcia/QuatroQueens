@@ -34,3 +34,16 @@
   .profiles {
     padding: 60px 15px 60px 15px;
   }
+
+  .profiles_photo{
+    width: 180px;
+    height: 180px;
+    border-radius: 4px;
+    object-fit: cover;
+    border: solid 5px rgba($negro, $alpha: 0.08);
+  }
+
+  .article_profiles{
+    text-align: center;
+    padding: 30px 15px;
+  }
