@@ -1,0 +1,78 @@
+<form
+        action="https://formspree.io/f/xjvlzoek"
+        method="post"
+        class="formulario"
+      >
+        <fieldset>
+          <!--campo para introducir nombre-->
+
+          <div>
+            <label for="full-name" class="label"
+            >Nombre completo <span class="asterisk">*</span></label>
+          </div>
+          <div>
+            <input
+            type="text"
+            name="name"
+            id="full-name"
+            placeholder="Nombre..."
+            required=""
+            class="input"/>
+          </div>
+
+          <!--campo para introducir mail-->
+
+          <div>
+            <label for="email-address" class="label"
+            >Email <span class="asterisk">*</span></label>
+          </div>
+          <div>
+            <input
+            type="email"
+            name="_replyto"
+            id="email-address"
+            placeholder="nombre.apellidos@mail.com"
+            required=""
+            class="input_dark"/>
+          </div>
+
+          <!--campo para introducir telefono-->
+
+          <div>
+            <label for="telephone" class="label">Teléfono</label>
+          </div>
+          <div>
+            <input
+            type="telephone"
+            name="telephone"
+            id="telephone"
+            placeholder="Ej: 123456789"
+            class="input"/>
+          </div>
+
+          <!--campo para introducir mensaje-->
+
+          <div>
+            <label for="message" class="label"
+            >Mensaje <span class="asterisk">*</span></label>
+          </div>
+          <div>
+            <textarea
+            rows="5"
+            name="message"
+            id="message"
+            placeholder="¿Qué necesitas?"
+            required=""
+            class="textarea">
+            </textarea>
+          </div>
+          <div>
+            <input
+            type="hidden"
+            name="_subject"
+            id="email-subject"
+            value="Message Form Submission"/>
+          </div>
+        </fieldset>
+        <input type="submit" value="enviar" class="botton" />
+      </form>
