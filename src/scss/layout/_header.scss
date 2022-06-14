@@ -8,7 +8,18 @@
   height: 120px;
   width: 100vw;
   font-family: $letraSecundaria;
-  z-index: 999;}
+  z-index: 999;
+  @media all and (min-width: 768px){
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      background-color: $verdeOscuro;
+      padding: 0 45px 0 45px;
+      height: 60px;
+      /* añadir width*/
+  }
+  
+}
 
 .title {
   color: $blanco;
@@ -19,11 +30,15 @@
   width: 100vw;
   padding: 30px 0 30px 0;
   font-size: 16px;
+  @media all and (min-width: 768px){
+padding: 0;
+padding-left: 45px;
+/* añadir width*/
+}
 }
 .menu-header {
   background-color: $verdeClaro;
   opacity: 0.9;
-  text-transform: uppercase;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -31,10 +46,22 @@
   height: 45px;
   width: 100vw;
   padding: 0;
+  @media all and (min-width: 768px){
+    justify-content: right;
+    background-color: $verdeOscuro;
 }
+}
+
 .menu-header li a {
+  display: flex;
+  flex-direction: row;
   color: $blanco;
   text-decoration: none;
   text-align: center;
   text-transform: uppercase;
+  @media all and (min-width: 768px){
+    justify-content: right;
+    background-color: $verdeOscuro;
+    padding: 0 20px 0;
+}
 }
