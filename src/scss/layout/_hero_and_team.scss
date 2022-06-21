@@ -8,13 +8,18 @@
   background-color: $blanco;
   text-align: center;
   position: absolute;
-  top: 55vh;
+  top: 400px;
+  opacity: 0.8;
   @media all and (min-width: 768px) {
-    right: 60vh;
+    left: 100px;
     width: 410px;
-    top: 51vh;
+    top: 350px;
     text-align: left;
     line-height: 25px;
+  }
+  @media all and (min-width: 1200px) {
+    top: 350px;
+    right: 700px;
   }
 }
 .title_description {
@@ -34,11 +39,3 @@
   width: 100%;
   height: 421px;
 }
-
-// .hero {
-//   background-image: url(../images/kagawana.jpg);
-//   background-size: cover;
-//   background-position: center;
-//   height: 421px;
-
-// }
