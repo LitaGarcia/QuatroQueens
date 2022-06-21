@@ -14,9 +14,9 @@
     justify-content: center;
     align-items: center;
     background-color: $verdeOscuro;
-    padding: 0 45px 0 45px;
+    padding: 0;
     height: 60px;
-    /* añadir width*/
+    width: 100vw;
   }
 }
 
@@ -31,9 +31,8 @@
   font-size: 16px;
   @media all and (min-width: 768px) {
     padding: 0;
-    padding-left: 45px;
-
-    /* añadir width*/
+    text-align: left;
+    width: 30%;
   }
 }
 .menu-header {
@@ -49,7 +48,13 @@
   @media all and (min-width: 768px) {
     justify-content: right;
     background-color: $verdeOscuro;
-    width: 300px;
+    width: 100%;
+  }
+}
+
+.nav {
+  @media all and (min-width: 768px) {
+    width: 60%;
   }
 }
 
@@ -64,5 +69,10 @@
     justify-content: right;
     background-color: $verdeOscuro;
     padding: 0 20px 0;
+  }
+  &:hover {
+    color: red;
+    transition: 0.5s;
+    font-size: 20px;
   }
 }
