@@ -1,7 +1,7 @@
-.logo {
-  width: 100%;
-  height: 421px;
-}
+// .logo {
+//   width: 100%;
+//   height: 421px;
+// }
 
 .icon::before {
   content: " · ";
@@ -22,10 +22,10 @@
   position: absolute;
   top: -15px;
   left: 48vw;
-  @media all and (min-width:768px){
+  @media all and (min-width: 768px) {
     left: 48vw;
   }
-  @media all and (min-width:1200px){
+  @media all and (min-width: 1200px) {
     left: 49vw;
   }
 }
@@ -37,15 +37,15 @@ p {
   text-align: center;
   color: $grisOscuro;
   padding: 15px 0 15px 0;
-  @media all and (min-width:768px){
+  @media all and (min-width: 768px) {
     padding: 15px 30px 15px 30px;
   }
 }
 
 .main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  // position: relative;
 }
